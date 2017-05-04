@@ -13,6 +13,18 @@
 		DE04AD811EB1FC7600890FCD /* Booking_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD7F1EB1FC7600890FCD /* Booking_App.xcdatamodeld */; };
 		DE04AD831EB1FC7600890FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE04AD821EB1FC7600890FCD /* Assets.xcassets */; };
 		DE04AD861EB1FC7600890FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04AD841EB1FC7600890FCD /* LaunchScreen.storyboard */; };
+		DE04AD8E1EB2016D00890FCD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD8D1EB2016D00890FCD /* TableViewController.swift */; };
+		DE04AD901EB2045700890FCD /* TableViewControllerCatalogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD8F1EB2045600890FCD /* TableViewControllerCatalogo.swift */; };
+		DE04AD921EB208AA00890FCD /* reservar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD911EB208AA00890FCD /* reservar.swift */; };
+		DE04AD941EB20A2000890FCD /* InformacionHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD931EB20A2000890FCD /* InformacionHotel.swift */; };
+		DE04AD961EB20DED00890FCD /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD951EB20DEC00890FCD /* Url.swift */; };
+		DE04AD981EB20E9900890FCD /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD971EB20E9900890FCD /* Mapa.swift */; };
+		DE04AD9A1EB20FAC00890FCD /* vistapdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD991EB20FAC00890FCD /* vistapdf.swift */; };
+		DE04AD9C1EB2109900890FCD /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD9B1EB2109900890FCD /* VCMapView.swift */; };
+		DE04AD9E1EB210C600890FCD /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04AD9D1EB210C600890FCD /* Artwork.swift */; };
+		DE50C2DD1EB79D520039519E /* Reserva.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50C2DC1EB79D520039519E /* Reserva.swift */; };
+		DE82EBFA1EB4DA02001D18A1 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82EBF91EB4DA02001D18A1 /* Hotel.swift */; };
+		DE8705B11EB879B900538639 /* PDFS in Resources */ = {isa = PBXBuildFile; fileRef = DE8705B01EB879B900538639 /* PDFS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		DE04AD821EB1FC7600890FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE04AD851EB1FC7600890FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE04AD871EB1FC7600890FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE04AD8D1EB2016D00890FCD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DE04AD8F1EB2045600890FCD /* TableViewControllerCatalogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCatalogo.swift; sourceTree = "<group>"; };
+		DE04AD911EB208AA00890FCD /* reservar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reservar.swift; sourceTree = "<group>"; };
+		DE04AD931EB20A2000890FCD /* InformacionHotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionHotel.swift; sourceTree = "<group>"; };
+		DE04AD951EB20DEC00890FCD /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		DE04AD971EB20E9900890FCD /* Mapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
+		DE04AD991EB20FAC00890FCD /* vistapdf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistapdf.swift; sourceTree = "<group>"; };
+		DE04AD9B1EB2109900890FCD /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		DE04AD9D1EB210C600890FCD /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		DE50C2DC1EB79D520039519E /* Reserva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reserva.swift; sourceTree = "<group>"; };
+		DE82EBF91EB4DA02001D18A1 /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		DE8705B01EB879B900538639 /* PDFS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PDFS; path = ../../PDFS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +80,20 @@
 		DE04AD771EB1FC7600890FCD /* Booking App */ = {
 			isa = PBXGroup;
 			children = (
+				DE8705B01EB879B900538639 /* PDFS */,
 				DE04AD781EB1FC7600890FCD /* AppDelegate.swift */,
 				DE04AD7A1EB1FC7600890FCD /* ViewController.swift */,
+				DE04AD8D1EB2016D00890FCD /* TableViewController.swift */,
+				DE04AD8F1EB2045600890FCD /* TableViewControllerCatalogo.swift */,
+				DE04AD911EB208AA00890FCD /* reservar.swift */,
+				DE04AD931EB20A2000890FCD /* InformacionHotel.swift */,
+				DE04AD951EB20DEC00890FCD /* Url.swift */,
+				DE04AD971EB20E9900890FCD /* Mapa.swift */,
+				DE04AD991EB20FAC00890FCD /* vistapdf.swift */,
+				DE04AD9B1EB2109900890FCD /* VCMapView.swift */,
+				DE04AD9D1EB210C600890FCD /* Artwork.swift */,
+				DE82EBF91EB4DA02001D18A1 /* Hotel.swift */,
+				DE50C2DC1EB79D520039519E /* Reserva.swift */,
 				DE04AD7C1EB1FC7600890FCD /* Main.storyboard */,
 				DE04AD821EB1FC7600890FCD /* Assets.xcassets */,
 				DE04AD841EB1FC7600890FCD /* LaunchScreen.storyboard */,
@@ -127,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE04AD861EB1FC7600890FCD /* LaunchScreen.storyboard in Resources */,
+				DE8705B11EB879B900538639 /* PDFS in Resources */,
 				DE04AD831EB1FC7600890FCD /* Assets.xcassets in Resources */,
 				DE04AD7E1EB1FC7600890FCD /* Main.storyboard in Resources */,
 			);
@@ -141,7 +178,18 @@
 			files = (
 				DE04AD7B1EB1FC7600890FCD /* ViewController.swift in Sources */,
 				DE04AD811EB1FC7600890FCD /* Booking_App.xcdatamodeld in Sources */,
+				DE04AD981EB20E9900890FCD /* Mapa.swift in Sources */,
+				DE04AD941EB20A2000890FCD /* InformacionHotel.swift in Sources */,
+				DE50C2DD1EB79D520039519E /* Reserva.swift in Sources */,
+				DE04AD9C1EB2109900890FCD /* VCMapView.swift in Sources */,
+				DE04AD9A1EB20FAC00890FCD /* vistapdf.swift in Sources */,
 				DE04AD791EB1FC7600890FCD /* AppDelegate.swift in Sources */,
+				DE04AD901EB2045700890FCD /* TableViewControllerCatalogo.swift in Sources */,
+				DE04AD8E1EB2016D00890FCD /* TableViewController.swift in Sources */,
+				DE04AD921EB208AA00890FCD /* reservar.swift in Sources */,
+				DE04AD9E1EB210C600890FCD /* Artwork.swift in Sources */,
+				DE04AD961EB20DED00890FCD /* Url.swift in Sources */,
+				DE82EBFA1EB4DA02001D18A1 /* Hotel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +351,7 @@
 				DE04AD8C1EB1FC7600890FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
